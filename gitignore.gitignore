@@ -1,0 +1,29 @@
+# no .idea files
+*.idea
+
+# no .project files
+*.project
+
+# no *.iml files
+*.iml
+
+# no *.log files
+*.log
+
+# no *.bin files
+*.bin
+
+
+# no *.xml files
+*.xml
+
+# But not these files:
+!pom.xml
+!xmlFile.xml
+!xmlFile.xsd
+
+# ignore all files in the target/ directory
+target/
+
+# ignore all files in the filesForTests/ directory
+filesForTests/
